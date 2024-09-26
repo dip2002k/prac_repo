@@ -1,4 +1,6 @@
-﻿namespace Console_Project
+﻿using System;
+
+namespace Console_Project
 {
     internal class Program
     {
@@ -6,10 +8,28 @@
         {
             Console.WriteLine("My name is Kahu Arona-Haua");
         }
+
+
+        public static void Manish()
+        {
+            Console.WriteLine("Manish here!!!");
+        }
+        static void Main(string[] args) { }
+
+        
+
+          public static void dip()
+        {
+            Console.WriteLine("My name is dip");
+        }
+       
         static void Main(string[] args)
         {
-            Kahu();
-            Console.ReadLine(); 
+           Kahu();
+           dip();
+            Manish();
+           Console.ReadLine(); 
         }
+
     }
 }
