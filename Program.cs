@@ -14,7 +14,6 @@ namespace Console_Project
         {
             Console.WriteLine("Manish here!!!");
         }
-        static void Main(string[] args) { }
 
         
 
