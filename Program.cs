@@ -9,16 +9,26 @@ namespace Console_Project
             Console.WriteLine("My name is Kahu Arona-Haua");
         }
 
-        public static void Manihs()
+
+        public static void Manish()
         {
             Console.WriteLine("Manish here!!!");
         }
         static void Main(string[] args) { }
 
         
+
+          public static void dip()
         {
-            Kahu();
-            Console.ReadLine(); 
+            Console.WriteLine("My name is dip");
+        }
+       
+        static void Main(string[] args)
+        {
+           Kahu();
+           dip();
+            Manish();
+           Console.ReadLine(); 
         }
 
     }
