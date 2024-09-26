@@ -17,5 +17,11 @@ namespace Console_Project
             Console.ReadLine();
             
          }
+        static void Main(string[] args)
+        {
+            Kahu();
+            Console.ReadLine(); 
+        }
+
     }
 }
